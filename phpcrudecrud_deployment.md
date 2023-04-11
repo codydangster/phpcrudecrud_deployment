@@ -23,6 +23,7 @@ Section #3: Suggested Virtual Machine Configuration
 Disk Space: 20.00 GB
 CPU: Two Cores
 RAM: Four GB
+
 Section #4: How to create a Virtualbox Machine
 Install Oracle VM Virtualbox: https://www.virtualbox.org/wiki/Downloads
 Open up the application and click “New”
