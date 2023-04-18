@@ -46,10 +46,17 @@ Install Apache 2 using the following command “sudo apt install apache 2”
 Install PHP using “sudo apt install php libapache2”
 Restart using the following command “sudo systemctl restart apache2”
 Check the status of the Apache service by running “sudo systemctl status apache2”
-Section #7: Installing MySQL
+
+Section #7: Installing MySQL 
 Open a command prompt or powershell
-Type in the following command to install MySQL “sudo apt install MySQL”
-Follow the further instructions to establish a root password and configure MySQL
+Run the following commands 
+“sudo apt update”
+“sudo apt upgrade”
+“sudo apt install mariadb-server”
+“sudo systemctl status mariadb”
+“sudo mysql_secure_installation”
+From there, MySQL will be installed for MariaDB which will serve as the database for all the information that is required.
+Restart the system by running the following command “sudo systemctl restart mariadb”
 
 Section #8: Connecting PHP to MySQL database
 Locate the config.php file that contains the “host” “username” “password” and “databasename”
